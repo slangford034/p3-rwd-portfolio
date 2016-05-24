@@ -1,1 +1,3 @@
 // My Scripts
+
+$('.card').lightGallery();
