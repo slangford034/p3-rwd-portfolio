@@ -9,6 +9,10 @@ IMPORTS
 /********************
 YOUR STYLES
 *******************/
+body {
+	background: #E9E9E9;
+}
+
 .site-title {
 	color: #545454;
 	margin-left: 1em;
@@ -73,7 +77,7 @@ nav a:hover {
 
 /* New BG Color */
 .lg-backdrop { 
-    background-color: #424242;
+    background-color: #545454;
 }
 
 

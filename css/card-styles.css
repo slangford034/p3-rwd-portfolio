@@ -10,7 +10,8 @@ body {
 
 .card {
 	background: white;
-	margin-bottom: 2em;	
+	margin-bottom: 2em;
+    border: 1px solid #E1E1E1;	
 }
 
 .card a {
