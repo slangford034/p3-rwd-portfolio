@@ -9,6 +9,68 @@ IMPORTS
 /********************
 YOUR STYLES
 *******************/
+.site-title {
+	color: #545454;
+	margin-left: 1em;
+	margin-top: 200px;
+}
+
+.topbox img {
+  z-index: 9999;
+  width: 200px;
+  float: left;
+  margin-left: 2em;
+  margin-top: 25px;
+}
+
+nav {
+  position: fixed;
+  text-align: right;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-right: 15%;
+  margin-top: 1.3em;
+  margin-right: 2em;
+  font-family: 'Open Sans', sans-serif;
+  color: #949494;
+  z-index: 9;
+}
+
+nav li {
+  letter-spacing: .2%;
+  display: inline-block;
+  font-size: .9em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
+nav a:hover {
+  color: #333132;
+}
+
+.topbox {
+  margin-top: 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: white;
+  overflow: hidden;
+  padding-left: 0;
+  box-shadow: 1px 1px 1px #E2E2E2;
+  z-index: 8;
+}
+
+.navigation {
+	margin-right: 2em;
+}
+
 /* New BG Color */
 .lg-backdrop { 
     background-color: #424242;
@@ -30,6 +92,10 @@ MEDIA QUERIES
 }
 
 /* Mobile */
-@media (min-width: 30em) {
+@media screen and (max-width: 30em) {
+	.topbox img {
+		width: 150px;
+		margin-top: 32px;
+	}
 
 }
