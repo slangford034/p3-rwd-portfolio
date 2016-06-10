@@ -15,7 +15,6 @@ body {
 
 .site-title {
 	color: #545454;
-	margin-left: 1em;
 	margin-top: 200px;
 }
 
@@ -72,6 +71,11 @@ nav a:hover {
 }
 
 .navigation {
+	margin-right: 2em;
+}
+
+.centered {
+	margin-left: 2em;
 	margin-right: 2em;
 }
 

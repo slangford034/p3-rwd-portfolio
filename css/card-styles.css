@@ -31,6 +31,10 @@ body {
 	margin-top: 0;
 	margin-bottom: .5em;
 	font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #545454;
+    font-size: 1em;
+    text-align: center;
 }
 
 .card-content p {
